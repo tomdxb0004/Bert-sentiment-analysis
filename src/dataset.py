@@ -1,5 +1,15 @@
 import torch
+
+import sys
+sys.path.append('C:\\Users\\tomdx\\Documents\\GitHub\\Bert-sentiment-analysis\\src')
+
 import config
+import dataset
+import engine
+import torch
+import pandas as pd
+import torch.nn as nn
+import numpy as np
 
 
 class BERTDataset:
