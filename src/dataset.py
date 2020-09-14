@@ -1,7 +1,6 @@
 import torch
 
 import sys
-sys.path.append('C:\\Users\\tomdx\\Documents\\GitHub\\Bert-sentiment-analysis\\src')
 
 import config
 import dataset
@@ -10,8 +9,10 @@ import torch
 import pandas as pd
 import torch.nn as nn
 import numpy as np
-
-
+df = pd.read_csv(config.TRAINING_FILE)
+print('***********************************************',len(df))
+BERT_PATH = "C:\\Users\\tomdx\\Documents\\GitHub\\Bert-sentiment-analysis\\src\\bert-base-uncased"
+print(BERT_PATH,os.getcwd())
 class BERTDataset:
     def __init__(self, review, target):
         self.review = review
