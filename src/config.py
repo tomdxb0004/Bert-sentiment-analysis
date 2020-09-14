@@ -10,3 +10,4 @@ BERT_PATH = "..\\input"
 MODEL_PATH = "model.bin"
 TRAINING_FILE = "..\\input\\imdb.csv"
 TOKENIZER = transformers.BertTokenizer.from_pretrained(BERT_PATH, do_lower_case = True)
+print('Done Loading Config')

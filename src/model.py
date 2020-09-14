@@ -15,4 +15,4 @@ class BERTBaseUncased(nn.Module):
         output = self.out(bo)
         return output
 
-     
+print('Done with Model')

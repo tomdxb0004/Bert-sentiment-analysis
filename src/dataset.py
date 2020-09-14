@@ -41,3 +41,5 @@ class BERTDataset:
             "token_type_ids": torch.tensor(token_type_ids, dtype=torch.long),
             "targets": torch.tensor(self.target[item], dtype=torch.float),
         }
+
+print('Done Loading Dataset')
