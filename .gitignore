@@ -9,7 +9,8 @@
 *.user
 *.userosscache
 *.sln.docstates
-
+*.vscode
+input/
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -38,6 +39,7 @@ bld/
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
+*.vscode/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
